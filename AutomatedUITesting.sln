@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedUITesting.Web", "src\AutomatedUITesting.Web\AutomatedUITesting.Web.csproj", "{951524AA-F029-4BFD-9AB1-E9827F6E557F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B01AB124-F331-4E82-9A1B-D7A9C5E90AAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{74FA53EE-E5C2-478A-BC50-DFBBA9BFFE88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedUITesting.Web.Tests.UI", "test\AutomatedUITesting.Web.Tests.UI\AutomatedUITesting.Web.Tests.UI.csproj", "{E2EDFBCD-BB51-42D8-970D-F6A5B0875DD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{951524AA-F029-4BFD-9AB1-E9827F6E557F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951524AA-F029-4BFD-9AB1-E9827F6E557F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951524AA-F029-4BFD-9AB1-E9827F6E557F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951524AA-F029-4BFD-9AB1-E9827F6E557F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2EDFBCD-BB51-42D8-970D-F6A5B0875DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2EDFBCD-BB51-42D8-970D-F6A5B0875DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2EDFBCD-BB51-42D8-970D-F6A5B0875DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2EDFBCD-BB51-42D8-970D-F6A5B0875DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{951524AA-F029-4BFD-9AB1-E9827F6E557F} = {B01AB124-F331-4E82-9A1B-D7A9C5E90AAD}
+		{E2EDFBCD-BB51-42D8-970D-F6A5B0875DD1} = {74FA53EE-E5C2-478A-BC50-DFBBA9BFFE88}
+	EndGlobalSection
+EndGlobal
